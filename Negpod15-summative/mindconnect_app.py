@@ -28,7 +28,7 @@ class MentalHealthApp:
 
     def show_menu(self):
         '''shows menu of the app'''
-        print("\n==== Mental Health Awareness App ====")
+        print("\n==== MindConnect (Mental Health Awareness App) ====")
         print("1. Resources")
         print("2. Self-Assessment Tools")
         print("3. Support Chatbot")
@@ -38,7 +38,7 @@ class MentalHealthApp:
 
     def run(self):
         '''Runs user input'''
-        print("Welcome to the Mental Health Awareness App!")
+        print("Welcome to MindConnect the Mental Health Awareness App!")
         while True:
             self.show_menu()
             choice = input("Enter your choice (0-4): ")
