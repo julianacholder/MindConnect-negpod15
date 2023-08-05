@@ -12,6 +12,7 @@ print(disclaimer)
 
 
 while True:
+<<<<<<< HEAD
  answer = input("Do you wish to continue? ")
  if answer == 'yes' or answer == 'Yes':
     
@@ -19,5 +20,4 @@ while True:
  elif answer == 'no' or answer == 'No':
     break
  else:
-    print("Invalid input. Please enter yes or No.")
-
+    print("Invalid input. Please enter yes or No."
