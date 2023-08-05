@@ -10,6 +10,7 @@ The MindConnect App and its integrated support chatbot provide information and t
 
 print(disclaimer)
 
+<<<<<<< HEAD
 def option():
     while True:
         answer = input("Do you wish to continue? ")
@@ -26,3 +27,4 @@ def option():
             print("Invalid input. Please enter 'yes' or 'no'.")
 
 option()
+
