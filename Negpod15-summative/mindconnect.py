@@ -10,3 +10,14 @@ The MindConnect App and its integrated support chatbot provide information and t
 
 print(disclaimer)
 
+
+while True:
+ answer = input("Do you wish to continue? ")
+ if answer == 'yes' or answer == 'Yes':
+    
+      pass
+ elif answer == 'no' or answer == 'No':
+    break
+ else:
+    print("Invalid input. Please enter yes or No.")
+
