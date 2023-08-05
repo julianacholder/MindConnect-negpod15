@@ -1,1 +1,2 @@
 MindConnect: ALU Student Mental Health Support & Awareness
+Our project is  a menu-driven mental health awareness application and support chatbot called MindConnect. Our project's aim is to effectively address the mental health needs of the students. This is done by the provision of resources, self-assessment tools, a support chatbot and a community forum. This application can promote awareness and encourage help-seeking behaviors. 
