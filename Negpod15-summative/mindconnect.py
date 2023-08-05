@@ -10,3 +10,19 @@ The MindConnect App and its integrated support chatbot provide information and t
 
 print(disclaimer)
 
+def option():
+    while True:
+        answer = input("Do you wish to continue? ")
+
+        if answer.lower() == 'yes':
+            print("Menu:")
+            print("1. Self Assessment")
+            print("2. Support Chatbot")
+            print("3. Community Forum")
+            break
+        elif answer.lower() == 'no':
+            break
+        else:
+            print("Invalid input. Please enter 'yes' or 'no'.")
+
+option()
