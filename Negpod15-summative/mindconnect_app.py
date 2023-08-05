@@ -7,7 +7,7 @@ import random
 
 
 class MentalHealthApp:
-    '''present a menu of th app'''
+    '''present a menu of the app'''
     
     def __init__(self):
         '''Presents resources'''
@@ -37,6 +37,7 @@ class MentalHealthApp:
         print("=====================================")
 
     def run(self):
+        '''Runs user input'''
         print("Welcome to the Mental Health Awareness App!")
         while True:
             self.show_menu()
@@ -56,18 +57,21 @@ class MentalHealthApp:
                 print("Invalid choice. Please try again.")
 
     def show_resources(self):
+        '''Presents resources'''
         print("\n==== Resources ====")
         for index, resource in enumerate(self.resources, start=1):
             print(f"{index}. {resource}")
         input("Press Enter to go back to the main menu.")
 
     def show_self_assessment_tools(self):
+        '''presents self assessment tools'''
         print("\n==== Self-Assessment Tools ====")
         for index, tool in enumerate(self.self_assessment_tools, start=1):
             print(f"{index}. {tool}")
         input("Press Enter to go back to the main menu.")
 
     def start_chatbot(self):
+        '''presents chatbot'''
         print("\n==== Support Chatbot ====")
         print("Type 'exit' to end the chat.")
         while True:
@@ -78,6 +82,7 @@ class MentalHealthApp:
                 print("Bot:", random.choice(self.chatbot_responses))
 
     def show_community_forum(self):
+        '''Presents community forum'''
         print("\n==== Community Forum ====")
         if not self.community_forum_posts:
             print("No posts yet. Be the first to start a conversation!")
