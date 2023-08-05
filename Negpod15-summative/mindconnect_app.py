@@ -10,6 +10,7 @@ class MentalHealthApp:
     '''present a menu of th app'''
     
     def __init__(self):
+        '''Presents resources'''
         self.resources = ["Resource 1", "Resource 2", "Resource 3"]
         self.self_assessment_tools = [
             "Assessment Tool 1",
@@ -26,6 +27,7 @@ class MentalHealthApp:
         self.community_forum_posts = []
 
     def show_menu(self):
+        '''shows menu of the app'''
         print("\n==== Mental Health Awareness App ====")
         print("1. Resources")
         print("2. Self-Assessment Tools")
