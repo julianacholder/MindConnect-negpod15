@@ -11,6 +11,7 @@ The MindConnect App and its integrated support chatbot provide information and t
 """
 
 print(disclaimer)
+time.sleep(1)
 
 <<<<<<< HEAD
 def option():
