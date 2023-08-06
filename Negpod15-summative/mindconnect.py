@@ -18,4 +18,6 @@ import random
 
 
 '''Define a class MentalHealthApp'''
+class MentalHealthApp:
+     '''presend a  menu of the app'''
 
