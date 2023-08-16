@@ -4,8 +4,6 @@ username = input("Enter your username to sign in: ")
 print("Welcome to MindConnect, {}!".format(username))
 time.sleep(1)
 
-
-
 disclaimer = """
 Disclaimer: 
 
